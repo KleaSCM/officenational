@@ -18,7 +18,7 @@ const brands = [
 const BrandBanner = () => {
   return (
     <div className={styles.brandBanner}>
-      <h2 className={styles.bannerTitle}>✨ Trusted Brands, Best Prices ✨</h2>
+      <h2 className={styles.bannerTitle}>✨ BeSt BeEr hErE ✨</h2>
       
       {/* Brand Container with Two Moving Rows */}
       <div className={styles.brandContainer}>
