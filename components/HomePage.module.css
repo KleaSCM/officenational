@@ -1,0 +1,25 @@
+
+   .homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /*Hero Banner */
+  .heroBanner {
+    width: 100%;
+    padding: 40px;
+    background: linear-gradient(135deg, #003a72, #005bb5);
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .heroBanner h1 {
+    font-size: 2rem;
+  }
+  

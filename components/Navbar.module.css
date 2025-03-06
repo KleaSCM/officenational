@@ -1,0 +1,143 @@
+/* === General Navbar Styles === */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 15px 20px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .leftSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .menuButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .searchBar {
+    width: 60%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color var(--transition-speed);
+  }
+  
+  .icon:hover {
+    color: var(--icon-hover);
+  }
+  
+  /* === Category Dropdown Styles === */
+  .categoryBar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: var(--primary-color);
+    padding: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdownButton {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .dropdown:hover .dropdownMenu,
+  .dropdownButton:focus + .dropdownMenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .dropdownItem {
+    padding: 8px;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: background 0.3s ease;
+  }
+  
+  .dropdownItem:hover {
+    background: var(--icon-hover);
+    color: white;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    left: -100%;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background: white;
+    transition: 0.3s;
+    padding: 20px;
+  }
+  
+  .sidebar.show {
+    left: 0;
+  }
+  
+  .sidebarHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

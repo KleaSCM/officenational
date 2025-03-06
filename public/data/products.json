@@ -1,0 +1,50 @@
+{
+  "latest": [
+    { "id": 1, "name": "Product A", "image": "/images/placehold.webp", "price": "$10" },
+    { "id": 2, "name": "Product B", "image": "/images/placehold1.webp", "price": "$15" },
+    { "id": 3, "name": "Product C", "image": "/images/placehold2.webp", "price": "$20" },
+    { "id": 4, "name": "Product D", "image": "/images/placehold3.webp", "price": "$25" },
+    { "id": 5, "name": "Product E", "image": "/images/placehold4.webp", "price": "$30" },
+    { "id": 6, "name": "Product F", "image": "/images/placehold1.webp", "price": "$35" }
+  ],
+  "hot": [
+    { "id": 7, "name": "Product G", "image": "/images/placehold1.webp", "price": "$40" },
+    { "id": 8, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 9, "name": "Product I", "image": "/images/placehold2.webp", "price": "$50" },
+    { "id": 10, "name": "Product J", "image": "/images/placehold4.webp", "price": "$55" },
+    { "id": 11, "name": "Product K", "image": "/images/placehold3.webp", "price": "$60" },
+    { "id": 12, "name": "Product L", "image": "/images/placehold2.webp", "price": "$65" }
+  ],
+  "Popular Categories": [
+    { "id": 13, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 14, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 15, "name": "Product G", "image": "/images/placehold1.webp", "price": "$40" },
+    { "id": 16, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 17, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 18, "name": "Product N", "image": "/images/placehold4.webp", "price": "$75" }
+  ],
+  "Technology Recommendations": [
+    { "id": 19, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 20, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 21, "name": "Product G", "image": "/images/placehold1.webp", "price": "$40" },
+    { "id": 22, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 23, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 24, "name": "Product N", "image": "/images/placehold4.webp", "price": "$75" }
+  ],
+  "Save Big with Initiative Range": [
+    { "id": 25, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 26, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 27, "name": "Product G", "image": "/images/placehold1.webp", "price": "$40" },
+    { "id": 28, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 29, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 30, "name": "Product N", "image": "/images/placehold4.webp", "price": "$75" }
+  ],
+  "Shop By Category": [
+    { "id": 31, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 32, "name": "Product M", "image": "/images/placehold3.webp", "price": "$70" },
+    { "id": 33, "name": "Product G", "image": "/images/placehold1.webp", "price": "$40" },
+    { "id": 34, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 35, "name": "Product H", "image": "/images/placehold.webp", "price": "$45" },
+    { "id": 36, "name": "Product N", "image": "/images/placehold4.webp", "price": "$75" }
+  ]
+}

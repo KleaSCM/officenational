@@ -1,26 +1,85 @@
-@import "tailwindcss";
-
+/* styles/globals.css */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --primary-color: #003a72;
+    --secondary-color: #f7f7f7;
+    --accent-color: #ffcc00;
+    --text-color: #ffffff;
+    --icon-hover: #ffcc00;
+    --transition-speed: 0.3s;
   }
-}
 
+/* 🔹 Base Styles */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    color: #1f2937; /* Equivalent to text-gray-900 */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 🔹 Header */
+  .header-top {
+    background-color: #1e3a8a; /* Equivalent to bg-blue-900 */
+    color: white;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding: 0.5rem 1.5rem; /* Equivalent to py-2 px-6 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .header-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* 🔹 Navbar */
+  .navbar {
+    background-color: #1e40af; /* Equivalent to bg-blue-800 */
+    color: white;
+    padding: 1rem 1.5rem; /* Equivalent to py-3 px-6 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Equivalent to shadow-md */
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .search-bar {
+    background-color: white;
+    color: #374151; /* Equivalent to text-gray-700 */
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    border-radius: 8px; /* Equivalent to rounded-lg */
+    width: 100%;
+    max-width: 400px; /* Equivalent to max-w-md */
+    border: 1px solid #d1d5db; /* Light gray border */
+  }
+  
+  .navbar .icons {
+    display: flex;
+    gap: 1rem; /* Equivalent to space-x-4 */
+    color: white;
+  }
+  
+  .navbar .icon {
+    font-size: 1.5rem; /* Equivalent to text-2xl */
+    cursor: pointer;
+  }
+  
+  /* 🔹 Footer */
+  .footer {
+    background-color: #1f2937; /* Equivalent to bg-gray-800 */
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0; /* Equivalent to py-6 */
+  }
+  

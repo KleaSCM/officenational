@@ -1,0 +1,73 @@
+
+.footer {
+    background-color: #1e3a8a; 
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* 🔹 Icons Section */
+  .footer-icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    justify-content: center;
+  }
+  
+  .footer-icons a {
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .footer-icons a:hover {
+    color: #b3d9ff; /* Light blue on hover */
+    transform: scale(1.2); /* Slight pop effect */
+  }
+  
+  /* 🔹 Links Section */
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    color: #b3d9ff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* 🔹 Footer Bottom */
+  .footer-bottom {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-top: 1rem;
+  }
+  
+  /* 🔹 Responsive Tweaks */
+  @media (max-width: 768px) {
+    .footer-icons {
+      gap: 1rem;
+      font-size: 1.2rem;
+    }
+    
+    .footer-links {
+      gap: 1rem;
+      font-size: 0.85rem;
+    }
+  }
+  
